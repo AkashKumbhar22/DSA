@@ -1,0 +1,7 @@
+class Mydetails{
+    public static void main(String[]args){
+        System.out.println("Name:Akash Kumbhar");
+        System.out.ptintln("Phone no:9511260846");
+        System.out.ptintln("Age:22");
+    }
+}
