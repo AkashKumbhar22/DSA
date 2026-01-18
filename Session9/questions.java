@@ -42,7 +42,7 @@ System.out.println("Value of arr1 after the fill method" +Arrays.toString(arr2))
 
     }
 } */
-
+/* 
 import java.util.Scanner;
 public class questions{
     public static void main(String[]args){
@@ -55,7 +55,8 @@ public class questions{
         for(int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
-
+    
+        
         System.out.println("Enter the number to be searched: ");
         int x = sc.nextInt();
 
@@ -80,5 +81,5 @@ public class questions{
         // }
 
     }
-}
+}*/
 
