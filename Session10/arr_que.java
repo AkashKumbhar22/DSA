@@ -177,35 +177,37 @@
 //     }  
 
 //reverse the array
-import java.util.Scanner;
-public class arr_que {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-           System.out.print("Enter the size of array: ");
-        int n = sc.nextInt();
+// import java.util.Scanner;
+// public class arr_que {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//            System.out.print("Enter the size of array: ");
+//         int n = sc.nextInt();
 
-        int arr [] = new int[n];
+//         int arr [] = new int[n];
 
-        for(int i=0 ; i<n ; i++){
-            System.out.print("Enter the element at position "+(i+1)+ ": ");
-            arr[i]=sc.nextInt();
-        }
+//         for(int i=0 ; i<n ; i++){
+//             System.out.print("Enter the element at position "+(i+1)+ ": ");
+//             arr[i]=sc.nextInt();
+//         }
 
-        System.out.println("The first element before reversing " +arr[0]);
-        for(int i=0;i<n;i++){
-            //arr[n-1]=arr[0];
-            arr[i]=arr[n-(i+1)];
-          //  arr[n-1]=arr[0];
+//         System.out.println("The first element before reversing " +arr[0]);
+   
+//         for(int i=0;i<n;i++){
+//             arr[i]=arr[n-(i+1)];
+//             if(i == n-(i+1)){
+//                 arr[n-1]=arr[0];
+//             }
 
-            System.out.print(arr[i]+" ");
-        }
-        System.out.println("The first element after reversing " + arr[0]);
+//             System.out.print(arr[i]+" ");
+//         }
+//         System.out.println("The first element after reversing " + arr[0]);
       
-        // for(int i=n-1;i>=0;i--){
-        //     System.out.print(arr[i]+" ");
-        //}
-        }
-    }  
+//         // for(int i=n-1;i>=0;i--){
+//         //     System.out.print(arr[i]+" ");
+//         //}
+//         }
+//     }  
 
 
 
