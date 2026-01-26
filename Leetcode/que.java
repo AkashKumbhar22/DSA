@@ -96,23 +96,51 @@
 // Even = 3
 // Odd = 3
 
+// import java.util.Scanner;
+// public class que{
+//     public static void main(String[]args){
+//  int[] arr = {1, 2, 3, 4, 5, 6};
+//  int e_count = 0;
+//  int o_count =0 ;
+//         for(int i=0;i<arr.length;i++){
+//             if(arr[i]%2==0){
+//                 e_count ++;
+//             }
+//             else if(arr[i]%2 != 0){
+//                 o_count++;
+//             }
+//         }
+//         System.out.println("Even = "+e_count);
+//             System.out.println("Odd = "+o_count);
+
+
+//     }
+// }
+
+
+
+// QUESTION 6 (STRINGS — CRITICAL FILTER)
+
+// Many students collapse here.
+
+// Q6️⃣
+
+// Write Java code to check whether a given string is a palindrome.
+
+// Given:
+
+// String s = "madam";
+
+
+// Expected output:
+
+// Palindrome
+
 import java.util.Scanner;
 public class que{
     public static void main(String[]args){
- int[] arr = {1, 2, 3, 4, 5, 6};
- int e_count = 0;
- int o_count =0 ;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]%2==0){
-                e_count ++;
-            }
-            else if(arr[i]%2 != 0){
-                o_count++;
-            }
-        }
-        System.out.println("Even = "+e_count);
-            System.out.println("Odd = "+o_count);
-
+ String s = "madam";
+ System.out.println(s);
 
     }
 }
