@@ -1,4 +1,4 @@
-// public class Array_Reverse{
+// public class swap {
 //     public static void main(String[]args){
 //         int n1 = 0;
 //         int n2 = n-1;
@@ -17,7 +17,7 @@
 //reverse an array by swapping 
 // import java.util.Arrays;
 // import java.util.Scanner;
-// public class Array_Reverse{
+// public class swap{
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 
@@ -49,7 +49,7 @@
 //rersing by while loop
 import java.util.Arrays;
 import java.util.Scanner;
-public class Array_Reverse{
+public class swap{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
