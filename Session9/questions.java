@@ -89,12 +89,12 @@ System.out.println("Value of arr1 after the fill method" +Arrays.toString(arr2))
 //     }
 // }
 
-import java.util.Arrays;
-import java.util.Scanner;
-public class questions{
-    public static void main(String[]args){
-        int arr1[]={4,5,3,2};
-        int arr2[]={4,5,3,2};
+// import java.util.Arrays;
+// import java.util.Scanner;
+// public class questions{
+//     public static void main(String[]args){
+//         int arr1[]={4,5,3,2};
+//         int arr2[]={4,5,3,2};
        // System.out.println(Arrays.equals(arr1,arr2));
         // if(arr1==arr2){
         //     System.out.println("True");
@@ -107,5 +107,6 @@ public class questions{
         // int arr[] = new int[7];
         // Arrays.fill(arr,0,7,9);
         // System.out.println(Arrays.toString(arr));
-}
-}
+// }
+// }
+

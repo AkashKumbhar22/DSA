@@ -41,6 +41,9 @@ public class arrays_hw{
     }
 } */
 
+
+
+    
 //Find index of an element in array: 
 // Write a Java program to find the index of an array element.
 // import java.util.Arrays;
@@ -152,6 +155,7 @@ public class arrays_hw{
 //    }
 // }
 // }
+
 
 import java.util.Arrays;
 import java.util.Scanner;
