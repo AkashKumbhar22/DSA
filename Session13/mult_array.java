@@ -9,21 +9,19 @@ class mult_array{
     //   int n = sc.nextInt();
 
     //   int sub_array = (n*(n+1))/2;
-    //   System.out.println("The size of sub_array is: "+sub_array);
-
+    //   System.out.println("The size of sub_a
       int arr[] = {5,2,1,3,1};
 
     //   int start =0;
       
-      for(int start=0;start<arr.length;start++){
+      for(int start=0;start<arr.length;start++){ 
             System.out.println(arr[start]);
-            for(int j=start;j<arr.length;j++){
-                if(j>=start){
-                System.out.print( arr[start] +","+arr[j]);
-                }
-            }
-            System.out.println();
-                
+            for(int end=start;end<arr.length;end++){
+               for(int x = start;x<=end;x++){
+                System.out.print(arr[x]+" ");
+               }
+               System.out.println();
+            }            
       }
 }
 }
