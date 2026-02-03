@@ -96,24 +96,51 @@
 
 
 // 50. Second Largest: Find the second largest number in an array without sorting it. 
+// import java.util.Scanner;
+// public class pract{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+
+//     int arr[]={1,2,3,4,5,6};
+//     int largest = Integer.MIN_VALUE;
+//     int sec_large = Integer.MIN_VALUE;
+
+//     for(int i=0;i<arr.length;i++){
+//         if(arr[i]>largest){
+//             sec_large = largest;
+//             largest = arr[i];
+//         }
+//         else if(arr[i]>sec_large && arr[i] != largest){
+//             sec_large = arr[i];
+//         }
+//     }
+//     System.out.println(sec_large);
+//     }
+// } 
+
+
+
+
+// . Remove Duplicates: Remove duplicate elements from a sorted array (or create a new 
+// array with unique elements). 
+
 import java.util.Scanner;
 public class pract{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-    int arr[]={1,2,3,4,5,6};
-    int largest = Integer.MIN_VALUE;
-    int sec_large = Integer.MIN_VALUE;
+    int arr[]={3,2,4,4};
 
     for(int i=0;i<arr.length;i++){
-        if(arr[i]>largest){
-            sec_large = largest;
-            largest = arr[i];
-        }
-        else if(arr[i]>sec_large && arr[i] != largest){
-            sec_large = arr[i];
-        }
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[i]==arr[j]){
+                    arr[j] =0;
+                }
+           //System.out.print(arr[i]);
+            }
+            System.out.print(arr[i] + " ");
+ 
     }
-    System.out.println(sec_large);
+    
     }
 } 
