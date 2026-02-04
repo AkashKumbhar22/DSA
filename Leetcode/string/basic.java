@@ -64,6 +64,5 @@ String s = "hello";
 char first = s.charAt(0);
 System.out.println(first);
 
-
     }
 }
