@@ -17,15 +17,19 @@
 //Write a function that reverse a string using char[]
 public class Str_builder {
     public static void main(String[] args) {
-        
-   String v = "Hello";
-   char[] akash = v.toCharArray();
+         int arr[] = {1,2,3,4,5};
+         int target = 5;
 
-   String a = v.reverse();
-   for(int i=0;i<akash.length;i++)
-   System.out.print("["+akash[i]+"]");
-    }
-}
-
+         for(int i=0;i<arr.length;i++){
+               for(int j=i+1;j<arr.length;j++){
+                    if((arr[i]+arr[j])==target){
+                        System.out.println(i+","+j);
+                        
+                    }
+                    
+             //   }
+         }           
+         }    
+}}
 
 
