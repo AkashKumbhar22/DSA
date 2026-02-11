@@ -3,9 +3,17 @@ public class character {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your First alphabet of name: ");
-        char name = sc.next().charAt(0);
-
-        System.out.println("You Entered: "+name);
+      int n = 5;
+      for(int rows=0 ; rows<n ; rows++){
+        for(int columns=0;columns<n;columns++){
+            if(rows==0 || columns==0 || rows==n-1 || columns==n-1){
+                System.out.print("* ");
+            }
+            else{
+                System.out.print("  ");
+            }
+        }
+        System.out.println();
+      }
     }
 }
