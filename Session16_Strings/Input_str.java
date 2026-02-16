@@ -13,6 +13,6 @@ public class Input_str {
         //When we use the "nextLine()" we get everything which is written
         System.out.print("Enter your full name: ");
         String fullname = ak.nextLine();
-        System.out.println("Your Full name is: " + fullname);
-    }
+System.out.println("Your Full name is: " + fullname);
+}
 }
