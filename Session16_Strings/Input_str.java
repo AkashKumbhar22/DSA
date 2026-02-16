@@ -7,8 +7,9 @@ public class Input_str {
         String name = ak.next();
 
         //When we use "next()" we dont get the value after the spaces
-        // System.out.println("Your name is: " + name);
+        System.out.println("Your name is: " + name);
 
+        ak.nextLine();
         //When we use the "nextLine()" we get everything which is written
         System.out.print("Enter your full name: ");
         String fullname = ak.nextLine();
