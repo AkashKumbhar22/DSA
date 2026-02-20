@@ -4,10 +4,11 @@ public class stringss{
     public static void main(String[] args) {
         String str = "Akash";
         String full = "AkashKumbhar";
-//Built-In-Functions
+
+        //Built-In-Functions
         //.length = Gives the length of the variable
         System.out.println(str.length());
-
+                                                                                              
         //.charAt() = Gives the character at specific index
         System.out.println(str.charAt(3));
 

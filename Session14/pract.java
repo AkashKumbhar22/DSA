@@ -1,4 +1,4 @@
-//21. Sum of Natural Numbers: Write a loop to calculate the sum of the first 100 natural numbers (1+2+...+100)
+. Sum of Natural Numbers: Write a loop to calculate the sum of the first 100 natural numbers (1+2+...+100)
 
 // import java.util.Scanner;
 // public class pract{
