@@ -1,8 +1,3 @@
-//How to 
-
-
-
-
 public class basic_func {
     void printhello(){
             System.out.println("akash");

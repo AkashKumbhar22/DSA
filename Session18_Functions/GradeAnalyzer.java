@@ -23,4 +23,3 @@ return 'F';        }
             System.out.println("Grade = " + obj.getGrade(n));
         }   
     }
-

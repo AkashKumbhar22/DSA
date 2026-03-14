@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Even {
+public class Even{
     boolean isEven(int n){
        return n % 2 == 0;
     }
