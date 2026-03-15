@@ -1,30 +1,28 @@
-// Write a function that:
+// takes an array
 
-// takes one number
-
-// returns true if the number is even
-
-// returns false if the number is odd
+// returns the sum of all elements
  import java.util.Scanner;
 
 public class greet {
-    boolean greet(int n){
-        if(n%2==0){
-            return true;
-        }
-        else{
-            return false;
-        }
+    int greet(int arr[], int n){
+        int sum = 0;
+      for(int i =0 ;i < n ; i++){
+        sum = sum + arr[i];
+      }
+    return sum;
+
     }
-    public static void main(String[] args){
+    public static void main(String[] args){ 
     Scanner sc = new Scanner(System.in);
-    System.out.println("Enter first no. : ");
+    System.out.println("Enter the size of array");
     int n = sc.nextInt();
+int [] arr = new int[n];
 
-
-
+for(int i = 0; i < n ; i++){
+arr[i] =sc.nextInt();
+}
         greet obj = new greet();
-      boolean result =  obj.greet(n);
+        int result =  obj.greet(arr,n);
       System.out.println(result);
     }
 }
