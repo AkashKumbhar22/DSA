@@ -4,9 +4,9 @@ class IndirectRecursion{
 		first(7);
 		}
 		
-		public static vodi first(int n)
+		public static void first(int n)
 		{
-			if(n=0) //BASE CODE
+			if(n==0) //BASE CODE
 			{
 				System.out.println("Number is even");
 				return;
@@ -15,9 +15,9 @@ class IndirectRecursion{
 			next(n-1); //RECURSIVE CASE 
 		}
 		
-		public static vodi next(int n)
+		public static void next(int n)
 		{
-			if(num()) //BASE CASE
+			if(n==0) //BASE CASE
 			{
 				System.out.println("Number is Odd");
 				return;
