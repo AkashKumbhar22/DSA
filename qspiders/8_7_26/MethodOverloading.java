@@ -1,7 +1,15 @@
 class MethodOverloading{
 	public static void main(String[] args){
 		user("Vaish" , 1234567890L);
+		user("Akash" , 9876543210L , akashkumbhar2912@gmail
 	}
+	public static void user(){
+		System.out.println("Here there is no arguemnts");
+	}
+	public static void user(){
+		System.out.print
+	
+	
 		public static void user(String name , long p_no){
 			System.out.println("Just entered the very required fields");
 			System.out.println("Name :" + name);
