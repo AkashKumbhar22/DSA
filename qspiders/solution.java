@@ -1,20 +1,17 @@
-import java.util.Scanner;
-class solution
-{
-//public int romantoInt(String s)
-	
-	public static void main(String[] args)
-{
-	Scanner sc = new Scanner(System.in);
-	System.out.print("Make the number using roman numbers (I,V,X)");
-	String n = sc.next();
-	int I = 1;
-	int V = 5;
-	int X = 10;
-	System.out.println(n);
-	if(V){
-		
-		System.out.println(I);
-	}
-	}
+class Solution {
+    public static void main(String[] args){
+	int x = 970;
+        int temp = x;
+        int rev = 0;
+        while(x>0){
+            int d = x % 10;
+          // if(d == 0){
+		//	continue;}
+		//	else 
+            rev = rev * 10 + d;
+            x = x /10;
+        }
+		System.out.println(rev);
+
+    }
 }
