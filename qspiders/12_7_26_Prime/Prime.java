@@ -1,6 +1,7 @@
+//Prime number : If it is completey divisible by only two numbers i.e. by 1 and the number itself is called as Prime Number.
 class Prime
 {
-	public static void main(Sting[] args)
+	public static void main(String[] args)
 	{
 		int n = 13;
 		int count = 0;
