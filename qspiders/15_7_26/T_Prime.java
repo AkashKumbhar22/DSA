@@ -10,7 +10,6 @@ class T_Prime{
 				}
 			}
 			if(count == 1){
-				reverse(n);
 				return true;
 			}
 			else{
@@ -26,7 +25,6 @@ class T_Prime{
 			rev = rev * 10 + digit;
 			n = n/10;
 			}
-		prime(n);
 		return rev;
 		}
 		
@@ -34,8 +32,9 @@ class T_Prime{
 				//System.out.println(reverse(123));
 			//	Scanner sc = new Scanner(System.in);
 		//System.out.println("Enter the value of n: ");
-		int n = 23;
-		if(prime(reverse(n))){
+		int n = 13;
+		int rev = reverse(n);
+		if(prime(n) && prime(rev)){
 				System.out.println("It is a twisted prime number");
 				}
 		else{
