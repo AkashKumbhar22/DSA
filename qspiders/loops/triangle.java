@@ -1,4 +1,4 @@
-class Diagonal{
+class triangle{
 	public static void main(String[] args)
 	{
 		int n = 5;
@@ -6,13 +6,13 @@ class Diagonal{
 		{
 			for(int j = 1 ; j <= n ; j++)
 			{	
-				if(i==j || i == 1)
+				if(i==j || i == n || j ==1)
 					System.out.print(" * ");
 			
 				else
 					System.out.print("   ");
 			}
-			System.out.println("*");
+			System.out.println();
 			}
 	
 	}

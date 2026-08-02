@@ -1,5 +1,7 @@
 import java.util.Arrays.Scanner;
 class Sort{
+	int x;
+	 static int y = 
 	public static void main(String[] args){
 	
 	Scanner sc = new Scanner(System.in)
