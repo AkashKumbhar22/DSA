@@ -35,25 +35,4 @@ class Ams{
 	}
 	
 	
-	public static void main(String[] args)
-	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the value of n: ");
-		int n = sc.nextInt();
-		//System.out.println(Expon(2,3));
-		//System.out.println(count(123));
-		//System.out.println)amstrong(123));
-		
-	//	int n = 153;
-		if(amstrong(n, count(n)))
-		{
-			System.out.println("arm");
-		}
-		else
-		{
-			System.out.println("not arm");
-		}
-		
-	}
-}
 	
