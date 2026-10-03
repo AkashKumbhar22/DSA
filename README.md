@@ -18,4 +18,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1251-average-selling-price](https://github.com/AkashKumbhar22/DSA/tree/master/1251-average-selling-price) |
 | [1683-invalid-tweets](https://github.com/AkashKumbhar22/DSA/tree/master/1683-invalid-tweets) |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/AkashKumbhar22/DSA/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
+## Array
+|  |
+| ------- |
+| [0485-max-consecutive-ones](https://github.com/AkashKumbhar22/DSA/tree/master/0485-max-consecutive-ones) |
 <!---LeetCode Topics End-->
