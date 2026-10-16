@@ -1,0 +1,8 @@
+In Has-A relationship the object of one class is created in teh another class.
+For example :
+--> The Car class(depending class) is dependent on the Engine Class(Dependent class)
+--> As you can see in the example of Caru and Enginu
+    > The Car class Creates the object of engine in its class outside the main method
+    > The Car Object is Created in the same car class inside the main method
+    > When the compiler sees the engine object is created here it first compiles teh engine class and afterwards 
+        it compiles the car class

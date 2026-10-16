@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            HTML Code
+        </title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <td>Akash</td>
+                <td>21</td>
+            </tr>
+
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <td>Vaishnavi</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </body>
+</html>
