@@ -462,7 +462,7 @@ public static void main(String[] args){
 // }
 
 
-// Next: Two Sum ⭐
+// Next: Two Sum 
 // Interview Question
 
 // Given an array of integers and a target value, find two numbers whose sum equals the target.
@@ -545,41 +545,119 @@ public static void main(String[] args){
 //     }
 // }
 
-// Intersection of Two Arrays
-// int[] arr1 = {1, 2, 2, 3, 4};
-// int[] arr2 = {2, 2, 4, 6};
-// Find the elements present in both arrays.
-// Expected:
-// 2 4
-import java.util.Arrays;
-class arr {
-    public static void main(String[] args) {
+//Correct ans just add boolean
+// import java.util.Arrays;
+// class arr {
+//     public static void main(String[] args) {
 
-        int[] arr1 = {1, 2, 2, 3, 4};
-        int[] arr2 = {2, 2, 4, 6};
+//         int[] arr1 = {1, 2, 2, 3, 4};
+//         int[] arr2 = {2, 2, 4, 6};
 
-        for (int i = 0; i < arr1.length; i++) {
+//         for (int i = 0; i < arr1.length; i++) {
 
-            boolean alreadySeen = false;
+//             boolean alreadySeen = false;
 
-            // Check if arr1[i] appeared earlier
-            for (int k = 0; k < i; k++) {
-                if (arr1[k] == arr1[i]) {
-                    alreadySeen = true;
-                    break;
-                }
-            }
+//             // Check if arr1[i] appeared earlier
+//             for (int k = 0; k < i; k++) {
+//                 if (arr1[k] == arr1[i]) {
+//                     alreadySeen = true;
+//                     break;
+//                 }
+//             }
 
-            if (alreadySeen)
-                continue;
+//             if (alreadySeen)
+//                 continue;
 
-            // Check if element exists in arr2
-            for (int j = 0; j < arr2.length; j++) {
-                if (arr1[i] == arr2[j]) {
-                    System.out.println(arr1[i]);
-                    break;
-                }
-            }
-        }
-    }
-}
+//             // Check if element exists in arr2
+//             for (int j = 0; j < arr2.length; j++) {
+//                 if (arr1[i] == arr2[j]) {
+//                     System.out.println(arr1[i]);
+//                     break;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+// Rotate an array to the right by k positions.
+// Given:
+// int[] arr = {1, 2, 3, 4, 5};
+// int k = 2;
+// Expected output:
+// [4, 5, 1, 2, 3]
+
+// import java.util.Arrays;
+// class arr {
+//     public static void main(String[] args) {
+
+//         int[] arr1 = {1, 2, 3, 4, 5};
+//         int k = 2;
+
+//         for(int i = k+ 2)
+        
+
+//     }
+// }
+
+
+// Striver — Left Rotate Array by D Places
+// Question:
+// Given an array and an integer D, rotate the array to the left by D places.
+// Example:
+// Input:  arr = [1, 2, 3, 4, 5]
+//         D = 2
+// Output: [3, 4, 5, 1, 2]
+// Your task
+// Write the Java code to solve this.
+
+// import java.util.Arrays;
+
+// class arr{
+//     public static void main(String[] args) {
+
+//          int[] arr = {1, 2, 3, 4, 5};
+//         int D = 2;
+
+//         for(int i = 0 ; i<D ; i++){
+//              int position = arr[0];
+//             for(int j = 0 ; j< arr.length-1 ; j++){
+//             arr[j] = arr[j+1];
+//             }
+//         arr[arr.length-1] = position;
+//         System.out.println(Arrays.toString(arr));
+// }
+//  System.out.println(Arrays.toString(arr));
+//     }
+// }
+
+
+// Question:
+// Given a binary array containing only 0 and 1, find the maximum number of consecutive 1s.
+// Example:
+// Input:  [1, 1, 0, 1, 1, 1]
+// Output: 3
+// Another:
+// Input:  [1, 0, 1, 1, 0, 1]
+// Output: 2
+// class arr{
+//     public static void main(String[] args) {
+
+//          int[] arr = {1, 1,1,0,1,1,1,1};
+//           int count = 0;
+//           int max_count = 0;
+//          for(int i = 0 ; i < arr.length ; i++){ 
+//                 if(arr[i] == 1){
+//                     count++;
+//                     if(count>max_count){
+//                         max_count = count;
+//                     }
+//                 }
+//                 else{
+//                     count = 0;
+//                 }
+//                          }
+//                          System.out.println(max_count);
+//         }    
+//     }
+
